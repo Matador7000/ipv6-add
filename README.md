@@ -260,7 +260,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/opiran-club/softether/main/o
 ----------------
 
 ```
-apt install python3 -y && sudo apt install python3-pip &&  pip install colorama && pip install netifaces && apt install curl -y && python3 <(curl -Ls https://raw.githubusercontent.com/Azumi67/6TO4-GRE-IPIP-SIT/main/ipip.py --ipv4)
+apt install python3 -y && sudo apt install python3-pip &&  pip install colorama && pip install netifaces && apt install curl -y && python3 <(curl -Ls https://github.com/Matador7000/ipv6-add/blob/main/ipip.py --ipv4)
 ```
 
 
@@ -273,13 +273,13 @@ sudo apt-get install python-pip -y  &&  apt-get install python3 -y && alias pyth
  <div dir="rtl">&bull;  دستور زیر برای کسانی هست که پیش نیاز ها را در سرور، نصب شده دارند</div>
  
 ```
-python3 <(curl -Ls https://raw.githubusercontent.com/Azumi67/6TO4-GRE-IPIP-SIT/main/ipip.py --ipv4)
+python3 <(curl -Ls https://github.com/Matador7000/ipv6-add/blob/main/ipip.py --ipv4)
 ```
 --------------------------------------
  <div dir="rtl">&bull; اگر سرور شما خطای externally-managed-environment داد از دستور زیر اقدام به اجرای اسکریپت نمایید.</div>
  
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Azumi67/6TO4-GRE-IPIP-SIT/main/managed2.sh)"
+bash -c "$(curl -fsSL https://github.com/Matador7000/ipv6-add/blob/main/managed2.sh"
 ```
 
 ---------------------------------------------
